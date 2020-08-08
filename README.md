@@ -1,6 +1,5 @@
 # Spring Boot Status Header
 [![license](https://img.shields.io/github/license/cgrotz/spring-boot-status-header.svg)](https://github.com/cgrotz/spring-boot-status-header/blob/master/LICENSE)
-[![release](https://img.shields.io/github/release/cgrotz/spring-boot-status-header.svg)](https://github.com/cgrotz/spring-boot-status-header/releases/latest)
 [![Build](https://github.com/cgrotz/spring-boot-status-header/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master&event=push)](https://github.com/cgrotz/spring-boot-status-header/actions?query=workflow%3A%22Java+CI+with+Maven%22)
 [![CodeFactor](https://www.codefactor.io/repository/github/cgrotz/spring-boot-status-header/badge)](https://www.codefactor.io/repository/github/cgrotz/spring-boot-status-header)
 
