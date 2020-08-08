@@ -10,7 +10,9 @@ And you didn't just want to send e-mails to everybody, or post it on a support f
 
 You need to look no further *spring-boot-status-header* is what you didn't know you want, but needed the whole time. It allows you to annotate your request handlers and controllers with status hints like deprecated, alpha and beta. The hint will be conveniently put in the `Status` header of the HTTP response. 
 
-But wait, there is more! You want to pass additional information along? Even that is possible by adding life saving information like: "Deprecated, Removeal on January first". Wait no longer use 
+But wait, there is more! You want to pass additional information along? Even that is possible by adding life saving information like: "Deprecated, Removeal on January first". You need to look no further *spring-boot-status-header* is exactly what you are looking for.
+
+![Example curl output](./docs/console_output.png)
 
 # Getting Started
 Before you can get started you will need to include the dependencies in your project:
