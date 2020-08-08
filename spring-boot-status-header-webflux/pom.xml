@@ -5,7 +5,7 @@
     <parent>
         <groupId>de.cgrotz</groupId>
         <artifactId>spring-boot-status-header-parent</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>spring-boot-status-header-webflux</artifactId>
@@ -14,7 +14,7 @@
         <dependency>
             <groupId>de.cgrotz</groupId>
             <artifactId>spring-boot-status-header-common</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>

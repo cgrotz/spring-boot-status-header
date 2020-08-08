@@ -5,7 +5,7 @@
     <parent>
         <groupId>de.cgrotz</groupId>
         <artifactId>spring-boot-status-header-parent</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>spring-boot-status-header-webmvc-example</artifactId>
@@ -21,7 +21,7 @@
         <dependency>
             <groupId>de.cgrotz</groupId>
             <artifactId>spring-boot-status-header-webmvc-starter</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
