@@ -88,3 +88,32 @@ public class YourRestController {
     ...
 }
 ```
+
+## Example Client Usage
+For example your consumers can check for the status header in a RestTemplate Interceptor.
+```java
+public class StatusInterceptor implements ClientHttpRequestInterceptor {
+ 
+  @Override
+  public ClientHttpResponse intercept(
+    HttpRequest request, 
+    byte[] body, 
+    ClientHttpRequestExecution execution) throws IOException {
+ 
+     ClientHttpResponse response = execution.execute(request, body);
+     if(response.getHeaders().containsKey("Status")) {
+        log.warn("Endpoint {} {} reported status {} with info {}", 
+          request.getMethod(),request.getURI(), 
+          response.getHeaders().get("Status"), 
+          response.getHeaders().get("Status-Info") );
+     }
+    return response;
+  }
+}
+```
+
+You can then use the interceptor in a RestTemplate like this:
+```java
+RestTemplate restTemplate = new RestTemplate();
+restTemplate.getInterceptors().add(new StatusInterceptor());
+```
